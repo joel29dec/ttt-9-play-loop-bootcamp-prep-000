@@ -38,8 +38,10 @@ end
 # Define your play method below
 
 play(board)
-  for (i = 0; i < 9; i++)
+  i = 0
+  until i == 9
   turn(board)
+  count += 1
   end
 end
 
