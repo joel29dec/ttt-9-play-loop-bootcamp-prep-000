@@ -41,7 +41,7 @@ play(board)
   i = 0
   until i == 9
   turn(board)
-  count += 1
+  i += 1
   end
 end
 
