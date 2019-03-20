@@ -36,3 +36,16 @@ def turn(board)
 end
 
 # Define your play method below
+
+play(board)
+  for (i = 0; i < 9; i++)
+  turn(board)
+  end
+end
+
+
+
+
+
+
+
